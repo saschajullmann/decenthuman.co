@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@chakra-ui/core": "^1.0.0-next.6",
+    "@chakra-ui/theme": "^1.0.0-next.6",
+    "gatsby": "^2.24.11",
+    "gatsby-plugin-chakra-ui": "^1.0.0-next.6",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.10.0"
+  },
+  "scripts": {
+    "dev": "node_modules/.bin/gatsby telemetry --disable && node_modules/.bin/gatsby develop",
+    "build": "node_modules/.bin/gatsby telemetry --disable && node_modules/.bin/gatsby build"
+  }
+}
