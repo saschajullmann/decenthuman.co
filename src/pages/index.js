@@ -17,6 +17,7 @@ const entries = [
   "Be aware of the people and animals around you",
   "Greet others with a smile",
   "Be empathic",
+  "Don't be jealous",
 ];
 
 export default () => {
