@@ -28,7 +28,7 @@ export default () => {
           pointers:
         </Text>
       </Box>
-      <Stack spacing={8}>
+      <Stack spacing={8} mb={10}>
         {entries.map((entry) => {
           return (
             <Flex>

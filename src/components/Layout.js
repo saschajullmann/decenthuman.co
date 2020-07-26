@@ -3,9 +3,9 @@ import {
   Box,
   Flex,
   Heading,
-  Container,
   IconButton,
   Link,
+  Container,
 } from "@chakra-ui/core";
 import { FaGithub } from "react-icons/fa";
 
@@ -22,15 +22,14 @@ function Layout({ children }) {
       <Box
         id="header"
         bg="white"
-        px={4}
         py={2}
         boxShadow="md"
         position="fixed"
         top={0}
         w="100%"
       >
-        <Container maxW="1000px">
-          <Flex py={1}>
+        <Container maxWidth="1000px">
+          <Flex>
             <Heading fontFamily="Pacifico">decenthuman.co</Heading>
             <Flex alignItems="center" ml="auto">
               <Link
@@ -49,7 +48,7 @@ function Layout({ children }) {
         </Container>
       </Box>
       <Box mt={height}>
-        <Container overflow="hidden" maxW="1000px">
+        <Container maxWidth="1000px" overflow="hidden">
           {children}
         </Container>
       </Box>
